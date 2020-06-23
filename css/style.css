@@ -1,0 +1,276 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: 14px;
+	background-color: #0B172A;
+	color: mistyrose;
+}
+
+p{
+	padding: 0 0 20px 0;
+	line-height: 1.5em;
+}
+
+
+div{
+	display: block;
+}
+
+
+input[type="text"], input[type="password"], input[type="search"]{
+	color: #BC4132;
+	width:auto;
+	height: border-box;
+	padding: 8px;
+}
+
+
+input, textarea{
+	outline: none;
+	/*border: none;*/
+	border: solid 1.5px #0B172A;
+}
+
+h1, h2{
+	font: normal 170% 'century gothic', arial;
+	padding: 0px 0	5px	0;
+}
+
+
+ul li {
+	margin: 0 0  6px 0;
+	padding: 0 0 4px 5px;
+	line-height: 1.5em;
+}
+
+
+hr{
+	border: solid 1px #463940 ;
+}
+
+
+.header{
+	background-color: #BC4132;
+	height: 180px;
+	font-size: 20px;
+	margin-left: 0px;
+	margin-right: 0px;
+	min-width: 900px;
+	width: auto;
+	letter-spacing: 2px;
+}
+
+
+.main, .logo, .menubar, .site_content, .footer, .body {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.logo{
+	width: 930px;
+	padding-bottom: 40px;
+	padding-top: 35px;
+	padding-left: 35px;
+}
+
+
+.logo_text {
+	color:   #0B172A		;
+	font: normal 100% 'century gothic', Apple Braille, Apple LiGothic;
+	margin: 0 0 0 9px;
+}
+
+
+a {
+	color:mistyrose;
+	text-decoration: none;
+}
+
+
+.KinoBook{
+	color: orange;
+	font-size: 40px;
+}
+
+
+.logo_text h2 {
+	font-size: 16px;
+}
+
+
+.menubar{
+	width: auto;
+	height: 46px;
+	background-color: #463940;
+}
+
+
+.menu{
+	width: 900px;
+	margin-left: 120px;
+}
+
+
+/*ul.menu{*/
+/*	width: 900px;*/
+/*}*/
+
+ul.menu li{
+	float: left;
+	padding: 0 0 0 9px;
+	list-style: none;
+	margin: 1px 2px 0 0;
+}
+
+ul.menu li a {
+	font: normal 300% 'century gothic', arial ;
+	font-size: 24px;
+	display: block;
+	height: 20px;
+	padding: 5px 35px 5px 28px;
+	color: mistyrose;
+	text-decoration: none;
+}
+
+
+ul.menu li.selected a {
+	color: #BC4132;
+}
+ul.menu li a:hover {
+	color:#ffa700;
+}
+
+
+.site_content{
+	width: 880px;
+	height: auto;
+	overflow: hidden;
+	margin: 20px auto 0 auto;
+}
+
+
+.sidebar_container{
+	float: right;
+	width: 230px;
+	height: auto;
+	background-color: #BC4132;
+}
+
+
+.sidebar{
+	float: right;
+	padding: 5%;
+	margin: 0 0 16px 0;
+	border: solid 3px #0B172A ;
+	border-radius: 6px;
+	width: inherit;
+	background-color: #463940;
+	/*#BC4132*/
+}
+
+
+.btn{
+	size: auto;
+	padding: 8px;
+	cursor: pointer;
+	background-color: #0B172A;
+	border: solid 1px #0B172A ;
+	color: mistyrose;
+}
+
+
+.sidebar h2{
+	color: mistyrose;
+	margin-bottom: 16px;
+	margin-top: 6px;
+}
+
+
+.lables_passreg_text {
+	font-size: 14px;
+	margin-top: 3%;
+	margin-left: 2%;
+}
+
+
+.sidebar ul {
+	margin: 0;
+}
+
+
+.sidebar ul li {
+	list-style-type: none;
+	margin: 0;
+}
+
+
+.rating_sidebar{
+	float: right;
+}
+
+
+.content{
+	text-align: left;
+	width: 620px;
+	padding: 0 0 0 5px;
+	float: left;
+	margin-top: 20px;
+}
+
+
+.content h2{
+	text-align: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+.new_films_block{
+	margin-bottom: 5%;
+}
+
+
+.new_films_block img{
+	border-radius: 7px;
+	border: solid ;
+	/*width: 15%;*/
+}
+
+
+.post .posts_content{
+	font-size: 0.8em;
+}
+
+
+.footer {
+	width: 100%;
+	height: 100px;
+	padding: 28px 0 5px 0;
+	text-align: center;
+	background-color: #BC4132;
+	color:black;
+	margin-left: 0;
+	margin-right: 0;
+	min-width: 900px;
+	font: normal 100% "Lucida Console", Monaco, monospace;
+	float: bottom;
+}
+
+
+.footer a{
+	color: #0B172A	;
+}
+
+
+.footer a:hover{
+	color: midnightblue;
+}
+
+
+.site_author {
+	font-size: 12px;
+}
