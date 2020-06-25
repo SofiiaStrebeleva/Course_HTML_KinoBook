@@ -3,10 +3,12 @@
 	padding: 0;
 }
 
+/*color: #0A1638, #000000, #1352FE, #7B9EFE, #FDFDFF*/
+
 body{
 	font-size: 14px;
-	background-color: #0B172A;
-	color: mistyrose;
+	background-color: #001652;
+	color: whitesmoke;
 }
 
 p{
@@ -20,8 +22,8 @@ div{
 }
 
 
-input[type="text"], input[type="password"], input[type="search"]{
-	color: #BC4132;
+input[type="text"], input[type="password"], input[type="search"], input[type="email"]{
+	color: #1352FE;
 	width:auto;
 	height: border-box;
 	padding: 8px;
@@ -31,12 +33,12 @@ input[type="text"], input[type="password"], input[type="search"]{
 input, textarea{
 	outline: none;
 	/*border: none;*/
-	border: solid 1.5px #0B172A;
+	border: solid 1.5px #0A1638;
 }
 
 h1, h2{
 	font: normal 170% 'century gothic', arial;
-	padding: 0px 0	5px	0;
+	padding: 0  0	5px	0;
 }
 
 
@@ -48,16 +50,16 @@ ul li {
 
 
 hr{
-	border: solid 1px #463940 ;
+	border: solid 1px #7B9EFE ;
 }
 
 
 .header{
-	background-color: #BC4132;
+	background-color: #0A1638;
 	height: 180px;
 	font-size: 20px;
-	margin-left: 0px;
-	margin-right: 0px;
+	margin-left: 0;
+	margin-right: 0;
 	min-width: 900px;
 	width: auto;
 	letter-spacing: 2px;
@@ -79,14 +81,14 @@ hr{
 
 
 .logo_text {
-	color:   #0B172A		;
+	color:   #1352FE		;
 	font: normal 100% 'century gothic', Apple Braille, Apple LiGothic;
 	margin: 0 0 0 9px;
 }
 
 
 a {
-	color:mistyrose;
+	color:whitesmoke;
 	text-decoration: none;
 }
 
@@ -105,12 +107,12 @@ a {
 .menubar{
 	width: auto;
 	height: 46px;
-	background-color: #463940;
+	background-color: #7B9EFE;
 }
 
 
 .menu{
-	width: 900px;
+	/*width: 900px;*/
 	margin-left: 120px;
 }
 
@@ -131,14 +133,14 @@ ul.menu li a {
 	font-size: 24px;
 	display: block;
 	height: 20px;
-	padding: 5px 35px 5px 28px;
-	color: mistyrose;
+	padding: 5px 25px 5px 20px;
+	color: #1352FE;
 	text-decoration: none;
 }
 
 
 ul.menu li.selected a {
-	color: #BC4132;
+	color: #000000;
 }
 ul.menu li a:hover {
 	color:#ffa700;
@@ -155,9 +157,10 @@ ul.menu li a:hover {
 
 .sidebar_container{
 	float: right;
-	width: 230px;
-	height: auto;
-	background-color: #BC4132;
+	width: 229px;
+	height: complex;
+	background-color: #5784FF;
+	border-top-right-radius: 5px;
 }
 
 
@@ -165,10 +168,10 @@ ul.menu li a:hover {
 	float: right;
 	padding: 5%;
 	margin: 0 0 16px 0;
-	border: solid 3px #0B172A ;
+	border: solid 3px #7B9EFE;
 	border-radius: 6px;
 	width: inherit;
-	background-color: #463940;
+	background-color: #0A1638;
 	/*#BC4132*/
 }
 
@@ -177,14 +180,15 @@ ul.menu li a:hover {
 	size: auto;
 	padding: 8px;
 	cursor: pointer;
-	background-color: #0B172A;
+	background-color: #1352FE;
+	border-radius: 7px;
 	border: solid 1px #0B172A ;
-	color: mistyrose;
+	color: whitesmoke;
 }
 
 
 .sidebar h2{
-	color: mistyrose;
+	color: #7B9EFE;
 	margin-bottom: 16px;
 	margin-top: 6px;
 }
@@ -236,7 +240,7 @@ ul.menu li a:hover {
 
 .new_films_block img{
 	border-radius: 7px;
-	border: solid ;
+	border: solid #0A1638 ;
 	/*width: 15%;*/
 }
 
@@ -246,13 +250,120 @@ ul.menu li a:hover {
 }
 
 
+.review_email{
+	background-color:#7B9EFE ;
+	padding: 1%;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+
+.content iframe{
+	border: #0B172A 2px;
+}
+
+
+.info_film_page{
+	margin-bottom: 4%;
+	margin-top: 2%;
+}
+
+
+.info_film_page .label{
+	font-size: 1.1em;
+}
+
+
+.info_film_page .value{
+font-size: 1.2em;
+	color: #7B9EFE;
+	margin-right: 3%;
+}
+
+
+.film_description{
+	margin-bottom: 10%;
+	margin-right: 5%;
+}
+
+
+.film_description img{
+	float: left;
+	margin-right: 2%;
+	border-radius: 5px;
+	border: solid #000000;
+}
+
+
+.review{
+	margin-top: 4%;
+	margin-bottom: 4%;
+	font-size: 1em;
+}
+
+
+.review_container{
+	border-radius: 5px;
+	border: #b3d4fc solid 1px;
+	margin-bottom: 4%;
+}
+
+
+.review_name{
+	background-color:#7B9EFE ;
+	padding: 1%;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+
+.review_text{
+	padding-left: 2%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+
+.send{
+	margin-top: 4%;
+	margin-bottom: 4%;
+}
+
+
+.send input[type="text"], input[type="email"], textarea {
+	border: solid 1px #b3d4fc;
+	margin-bottom: 2%;
+	background-color:#EAF0FF;
+}
+
+
+.send input [type="text"]{
+	width: 98%;
+}
+
+
+.send textarea{
+	width: 610px;
+	height: 200px;
+}
+
+
+.content span{
+	margin-bottom: 4%;
+}
+
+
+.content hr{
+	margin-top: 4%;
+}
+
 .footer {
 	width: 100%;
 	height: 100px;
 	padding: 28px 0 5px 0;
 	text-align: center;
-	background-color: #BC4132;
-	color:black;
+	background-color: #0A1638;
+	color:rgba(198,229,244,0.97);
 	margin-left: 0;
 	margin-right: 0;
 	min-width: 900px;
@@ -262,7 +373,7 @@ ul.menu li a:hover {
 
 
 .footer a{
-	color: #0B172A	;
+	color: #7B9EFE	;
 }
 
 
