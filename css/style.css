@@ -358,6 +358,29 @@ font-size: 1.2em;
 	margin-top: 4%;
 }
 
+
+.film_info{
+	margin-bottom: 5%;
+	padding: 5%;
+	background-color: midnightblue;
+	height: 250px;
+	width: 540px;
+}
+
+
+.film_info img{
+	float: left;
+	margin-right: 2%;
+}
+
+
+.film_info .btn {
+	margin: 2%;
+	float: right;
+	width: 60px;
+	border: #b3d4fc 1px solid;
+}
+
 .footer {
 	width: 100%;
 	height: 100px;
