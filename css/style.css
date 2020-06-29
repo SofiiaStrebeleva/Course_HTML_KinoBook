@@ -113,7 +113,7 @@ a {
 
 .menu{
 	/*width: 900px;*/
-	margin-left: 330px;
+	margin-left: 250px;
 }
 
 
@@ -369,12 +369,34 @@ font-size: 1.2em;
 	margin-right: 0;
 	min-width: 900px;
 	font: normal 100% "Lucida Console", Monaco, monospace;
-	float: bottom;
+	/*float: bottom;*/
+}
+
+
+.footer ul{
+	text-align: center;
+	list-style-type: none;
+	/*margin: 0;*/
+	padding: 0;
+	overflow: hidden;
+	display: flex;
+	margin-left: 450px;
+
+}
+
+.footer li{
+	/*float: left;*/
+	text-align: center;
+
 }
 
 
 .footer a{
 	color: #7B9EFE	;
+	display: block;
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
 }
 
 
