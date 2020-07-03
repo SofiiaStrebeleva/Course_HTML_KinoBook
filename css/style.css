@@ -54,6 +54,36 @@ hr{
 }
 
 
+table{
+	width: 99%;
+	border: #072473 solid 1px;
+	border-radius: 1%;
+}
+
+
+td {
+	padding: 2%;
+	border: solid #072473 1px;
+	border-radius: 1%;
+}
+
+
+td img{
+	width: 60px;
+	vertical-align: middle;
+}
+
+
+.center{
+	text-align: center;
+}
+
+
+.rating{
+	font-weight: bold;
+}
+
+
 .header{
 	background-color: #0A1638;
 	height: 180px;
@@ -378,7 +408,8 @@ font-size: 1.2em;
 	margin: 2%;
 	float: right;
 	width: 60px;
-	border: #b3d4fc 1px solid;
+	border: #0B172A 1px solid;
+	clear: both;
 }
 
 .footer {
