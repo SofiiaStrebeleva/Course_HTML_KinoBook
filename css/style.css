@@ -153,7 +153,8 @@ a {
 /*}*/
 
 .menu_list{
-	display: flex;
+	/*display: flex;*/
+	float: left;
 	padding: 0 0 0 9px;
 	list-style: none;
 	margin: 1px 2px 0 0;
@@ -461,4 +462,72 @@ font-size: 1.2em;
 
 .site_author {
 	font-size: 12px;
+}
+
+
+/*mobile devices style*/
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px) {
+
+	.video embed,  .video object,  .video iframe {
+		width: 100%;
+		height: auto;
+	}
+
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	.main{
+		width: 100%;
+	}
+
+	.header {
+		width: 100%;
+		/*text-align: center;*/
+	}
+
+	.menu{
+		margin: 0;
+
+	}
+
+	.menubar{
+		text-align: left;
+		width: 100%;
+		height: fit-content;
+	}
+
+	.menubar .menu_list {
+		width: 100%;
+		background-color: #7B9EFE;
+	}
+
+	.logo {
+		width: 100%;
+		margin: 15px 100px 5px 0;
+		position: static;
+		font-size: calc(14px + 2vw);
+	}
+
+	.content {
+		width: auto;
+		float: none;
+		margin: 20px 0;
+	}
+	.sidebar_container .sidebar {
+		display: none;
+	}
+
+	.site_content{
+		width: 100%;
+	}
+
+	.footer{
+		width: 100%;
+	}
+
 }
