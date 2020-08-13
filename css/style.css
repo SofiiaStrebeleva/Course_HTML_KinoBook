@@ -142,8 +142,8 @@ a {
 
 
 .menu{
-	/*width: 900px;*/
-	margin-left: 250px;
+	width: 980px;
+	margin-left:600px;
 }
 
 
@@ -153,17 +153,17 @@ a {
 /*}*/
 
 .menu_list{
-	/*display: flex;*/
+	display: flex;
 	float: left;
 	padding: 0 0 0 9px;
 	list-style: none;
-	margin: 1px 2px 0 0;
+	margin: auto;
 }
 
 ul.menu_list li a {
 	font: normal 300% 'century gothic', arial ;
 	font-size: 24px;
-	display: block;
+	display: flex;
 	height: 20px;
 	padding: 5px 25px 5px 20px;
 	color: #1352FE;
